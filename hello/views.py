@@ -19,3 +19,7 @@ def db(request):
 
     return render(request, 'db.html', {'greetings': greetings})
 
+
+def base(request):
+    return render(request, 'base.html')
+
