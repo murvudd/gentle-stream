@@ -2,24 +2,25 @@
 {% load staticfiles %}
 
 {% block content %}
-
+    <div>
+        <table class="center-table">
+            <tr>
+                <th>
+                    <a href="https://www.python.org/" class="lang-logo">
+                        <img src="{% static 'lang-logo.png'%}">
+                    </a>
+                </th>
+                <th>
+                    <a href="https://developer.spotify.com/" class="spot-icon">
+                        <img src="{% static 'Spotify_Icon_RGB_Green.png'%}">
+                    </a>
+                </th>
+            </tr>
+        </table>
+    </div>
     <div class="jumbotron text-center">
         <div class="container">
 
-            <table class="center-table">
-                <tr>
-                    <th>
-                        <a href="https://www.python.org/" class="lang-logo">
-                            <img src="{% static 'lang-logo.png'%}">
-                        </a>
-                    </th>
-                    <th>
-                        <a href="https://developer.spotify.com/" class="spot-icon">
-                            <img src="{% static 'Spotify_Icon_RGB_Green.png'%}">
-                        </a>
-                    </th>
-                </tr>
-            </table>
 
             <h1>Getting Started with Python on Heroku</h1>
             <p>This is a sample Python application deployed to Heroku. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the Heroku platform.</p>
