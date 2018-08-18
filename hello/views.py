@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.utils import translation
 from django.http import HttpResponse
 import spotipy
 from .models import Greeting
@@ -21,6 +22,6 @@ def db(request):
     return render(request, 'db.html', {'greetings': greetings})
 
 
-# def base(request):
-#     return render(request, 'base.html')
+def base(request):
+    return render(request, 'base.html')
 
