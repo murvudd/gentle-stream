@@ -29,7 +29,7 @@ msgid "How does it work"
 msgstr "Jak to działa"
 
 #: hello/templates/base.html:82
-msgid "Contact me"
+msgid "Contact Me"
 msgstr "Kontakt"
 
 #: hello/templates/base.html:94
