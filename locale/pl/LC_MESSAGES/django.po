@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-18 19:28+0000\n"
+"POT-Creation-Date: 2018-08-18 19:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,5 +21,24 @@ msgstr ""
 "%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: hello/templates/base.html:73
-msgid "Lets Translate"
+msgid "Home"
+msgstr "Strona Główna"
+
+#: hello/templates/base.html:76
+msgid "How does it work"
+msgstr "Jak to działa"
+
+#: hello/templates/base.html:82
+msgid "Contact me"
+msgstr "Kontakt"
+
+#: hello/templates/base.html:94
+msgid "Make your own app at Heroku"
+msgstr "Stwórz własną aplikację na Heroku"
+
+#: hello/templates/index.html:31
+msgid ""
+"This is a sample Python application deployed to Heroku. It's a reasonably "
+"simple app - but a good foundation for understanding how to get the most out "
+"of the Heroku platform."
 msgstr ""
