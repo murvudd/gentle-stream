@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-19 12:47+0000\n"
+"POT-Creation-Date: 2018-08-19 12:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,24 +44,30 @@ msgstr "Stwórz własną aplikację na Heroku"
 msgid ""
 "This application is a part of my masters deegre. In order to get real users "
 "preferences, Gente Stream logs your Spotify account listening preferences"
-msgstr ""
+msgstr "Ta aplikacja jest częścią pracy magisterskiej. "
 
 #: hello/templates/index.html:36
 msgid "Source on GitHub"
-msgstr ""
+msgstr "Źródło"
 
 #: hello/templates/index.html:41
 msgid "Let's go!"
-msgstr ""
+msgstr "Zaczynajmy!"
 
 #: hello/templates/index.html:49
 msgid "Please read how does the app work, and data policy below"
-msgstr ""
+msgstr "Proszę zapoznaj się z "
+
+#: hello/templates/index.html:56
+#, fuzzy
+#| msgid "How does it work"
+msgid "How this app works"
+msgstr "Jak to działa"
 
 #: hello/templates/index.html:66
 msgid "Data policy"
-msgstr ""
+msgstr "Polityka Danych"
 
 #: hello/templates/index.html:68
 msgid "Gentle Stream DOES NOT log:"
-msgstr ""
+msgstr "Gentle Stream NIE zapisuje:"
