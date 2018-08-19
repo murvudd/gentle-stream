@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-19 10:20+0000\n"
+"POT-Creation-Date: 2018-08-19 12:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,34 +21,47 @@ msgstr ""
 "%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: hello/templates/base.html:6
-msgid "an "
-msgstr "PL test"
+msgid "a Spotify user, listening preferences app"
+msgstr ""
 
-#: hello/templates/base.html:74
+#: hello/templates/base.html:75
 msgid "Home"
-msgstr "PL test"
+msgstr "Strona Główna"
 
-#: hello/templates/base.html:77
+#: hello/templates/base.html:78
 msgid "How does it work"
-msgstr "PL test"
+msgstr "Jak to działa"
 
-#: hello/templates/base.html:83
+#: hello/templates/base.html:84
 msgid "Contact Me"
 msgstr "Kontakt"
 
-#: hello/templates/base.html:95
+#: hello/templates/base.html:96
 msgid "Make your own app at Heroku"
 msgstr "Stwórz własną aplikację na Heroku"
 
 #: hello/templates/index.html:32
-msgid "Index first description"
+msgid ""
+"This application is a part of my masters deegre. In order to get real users "
+"preferences, Gente Stream logs your Spotify account listening preferences"
 msgstr ""
-"This is a sample Python application deployed to Heroku. It's a reasonably "
-"simple app - but a good foundation for understanding how to get the most out "
-"of the Heroku platform."
 
-#~ msgid "Strona Główna"
-#~ msgstr "Strona Główna"
+#: hello/templates/index.html:36
+msgid "Source on GitHub"
+msgstr ""
 
-#~ msgid "Jak to działa"
-#~ msgstr "Jak to działa"
+#: hello/templates/index.html:41
+msgid "Let's go!"
+msgstr ""
+
+#: hello/templates/index.html:49
+msgid "Please read how does the app work, and data policy below"
+msgstr ""
+
+#: hello/templates/index.html:66
+msgid "Data policy"
+msgstr ""
+
+#: hello/templates/index.html:68
+msgid "Gentle Stream DOES NOT log:"
+msgstr ""
