@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-19 13:32+0000\n"
+"POT-Creation-Date: 2018-08-19 13:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "a Spotify user, listening preferences app"
 msgstr ""
 
-#: hello/templates/base.html:82
+#: hello/templates/base.html:83
 msgid "Home"
 msgstr "Strona Główna"
 
-#: hello/templates/base.html:85
+#: hello/templates/base.html:86
 msgid "How does it work"
 msgstr "Jak to działa"
 
-#: hello/templates/base.html:91
+#: hello/templates/base.html:92
 msgid "Contact Me"
 msgstr "Kontakt"
 
-#: hello/templates/base.html:103
+#: hello/templates/base.html:104
 msgid "Make your own app at Heroku"
 msgstr "Stwórz własną aplikację na Heroku"
 
