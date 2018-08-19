@@ -25,11 +25,11 @@ msgid "an "
 msgstr ""
 
 #: hello/templates/base.html:74
-msgid "Home"
+msgid "Strona Główna"
 msgstr "Strona Główna"
 
 #: hello/templates/base.html:77
-msgid "How does it work"
+msgid "Jak to działa"
 msgstr "Jak to działa"
 
 #: hello/templates/base.html:83
