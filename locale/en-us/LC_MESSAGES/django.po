@@ -23,7 +23,7 @@ msgstr ""
 
 #: hello/templates/base.html:74
 msgid "Home"
-msgstr ""
+msgstr "ENg test"
 
 #: hello/templates/base.html:77
 msgid "How does it work"
