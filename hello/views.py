@@ -1,8 +1,10 @@
+import os
 from django.shortcuts import render
 from django.utils import translation
 from django.http import HttpResponse
 import spotipy
 from .models import Greeting
+import json
 
 
 # Create your views here.
@@ -27,4 +29,5 @@ def base(request):
 
 
 def splogin(request):
-    return render(request, 'splogin.html')
+    text = os.environ["SPOTIPY_REDIRECT_URI"]
+    return render(request, 'splogin.html', {'val': text})
