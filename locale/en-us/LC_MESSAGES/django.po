@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-19 09:52+0000\n"
+"POT-Creation-Date: 2018-08-19 09:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n"
-"%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n"
-"%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: hello/templates/base.html:6
 msgid "an "
@@ -26,19 +23,19 @@ msgstr ""
 
 #: hello/templates/base.html:74
 msgid "Home"
-msgstr "Strona Główna"
+msgstr ""
 
 #: hello/templates/base.html:77
 msgid "How does it work"
-msgstr "Jak to działa"
+msgstr ""
 
 #: hello/templates/base.html:83
 msgid "Contact Me"
-msgstr "Kontakt"
+msgstr ""
 
 #: hello/templates/base.html:95
 msgid "Make your own app at Heroku"
-msgstr "Stwórz własną aplikację na Heroku"
+msgstr ""
 
 #: hello/templates/index.html:32
 msgid ""
