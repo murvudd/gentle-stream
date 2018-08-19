@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-19 10:08+0000\n"
+"POT-Creation-Date: 2018-08-19 10:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: hello/templates/base.html:6
 msgid "an "
@@ -23,7 +24,7 @@ msgstr ""
 
 #: hello/templates/base.html:74
 msgid "Home"
-msgstr "ENg test"
+msgstr ""
 
 #: hello/templates/base.html:77
 msgid "How does it work"
@@ -39,4 +40,4 @@ msgstr ""
 
 #: hello/templates/index.html:32
 msgid "Index first description"
-msgstr "This is a sample Python application deployed to Heroku. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the Heroku platform."
+msgstr ""
