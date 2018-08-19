@@ -29,6 +29,6 @@ def base(request):
 
 
 def splogin(request):
-    text = os.environ["SPOTIPY_REDIRECT_URI"]
+    # text = os.environ["SPOTIPY_REDIRECT_URI"]
     text = "text zy pythona"
     return render(request, 'splogin.html', {'val': text})
