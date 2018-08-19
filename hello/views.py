@@ -25,3 +25,5 @@ def db(request):
 def base(request):
     return render(request, 'base.html')
 
+def splogin(request):
+    return render(request, 'splogin.html')

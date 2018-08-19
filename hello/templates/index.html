@@ -30,24 +30,25 @@
         {#        <p> {{ LANGUAGE_CODE1 }}</p>#}
 
         <p>{% trans "This application is a part of my masters deegre. In order to get real users preferences, Gente Stream logs your Spotify account listening preferences" %}</p>
-        <table align="center">
-            <tr>
-                <td>
-                    <a type="button" class="btn btn-lg btn-default" href="https://github.com/murvudd/gentle-stream"><span class="glyphicon glyphicon-download"></span> {% trans "Source on GitHub" %}</a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a type="button" class="btn btn-lg btn-primary" href="/"><span class="glyphicon glyphicon-flash"></span> {% trans "Let's go!" %}</a>
-                </td>
-            </tr>
-        </table>
+        <a type="button" class="btn btn-lg btn-default" href="https://github.com/murvudd/gentle-stream"><span class="glyphicon glyphicon-download"></span> {% trans "Source on GitHub" %}</a>
+{#        <table align="center">#}
+{#            <tr>#}
+{#                <td>#}
+{#                    <a type="button" class="btn btn-lg btn-default" href="https://github.com/murvudd/gentle-stream"><span class="glyphicon glyphicon-download"></span> {% trans "Source on GitHub" %}</a>#}
+{#                </td>#}
+{#            </tr>#}
+{#            <tr>#}
+{#                <td>#}
+{#                    <a type="button" class="btn btn-lg btn-primary" href="/splogin"><span class="glyphicon glyphicon-flash"></span> {% trans "Let's go!" %}</a>#}
+{#                </td>#}
+{#            </tr>#}
+{#        </table>#}
 
     </div>
     <div class="container">
         <div class="alert alert-info text-center" role="alert">
             {% trans "Please read how does the app work, and data policy below" %}
-{#            {% trans "" %} <a href="https://" class="alert-link">link</a> tutorial.#}
+            {#            {% trans "" %} <a href="https://" class="alert-link">link</a> tutorial.#}
 
         </div>
         {#        <hr>#}
@@ -83,13 +84,17 @@
                 {#                </ul>#}
             </div>
         </div> <!-- row -->
-{#        <div class="alert alert-info text-center" role="alert">#}
-{#            Please do work through the Getting Started guide, even if you do know how to build such an application.  The guide covers the basics of working with Heroku, and will familiarize you with all the concepts you need in order to build and deploy your own apps.#}
-{#        </div>#}
+        {#        <div class="alert alert-info text-center" role="alert">#}
+        {#            Please do work through the Getting Started guide, even if you do know how to build such an application.  The guide covers the basics of working with Heroku, and will familiarize you with all the concepts you need in order to build and deploy your own apps.#}
+        {#        </div>#}
         {#        <div class="jumbotron text-center">#}
         {##}
         {##}
         {#            <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-python"><span class="glyphicon glyphicon-flash"></span> Getting Started with Python</a>#}
         {#        </div>#}
+    </div>
+    <div align="center">
+        <a type="button" class="btn btn-lg btn-primary text-center" href="/splogin"><span class="glyphicon glyphicon-flash"></span> {% trans "Let's go!" %}</a>
+
     </div>
 {% endblock %}
