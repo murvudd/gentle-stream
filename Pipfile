@@ -9,6 +9,7 @@ django-heroku = "*"
 "psycopg2-binary" = "*"
 dj-database-url = "*"
 spotipy = "*"
+"httplib2" = "*"
 
 [requires]
 python_version = "3.6"
