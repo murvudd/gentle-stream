@@ -1,10 +1,10 @@
 from django.conf.urls import include, url
 from django.urls import path
+import hello.views
 
 from django.contrib import admin
 admin.autodiscover()
 
-import hello.views
 
 # Examples:
 # url(r'^$', 'gettingstarted.views.home', name='home'),
@@ -16,7 +16,8 @@ urlpatterns = [
     url(r'^base', hello.views.base, name='db'),
     path('admin/', admin.site.urls),
     # path('^code=', hello.views.splogin),
-    url(r'^sp', hello.views.splogin)
-    # path('sp/', include('hello.urls'))
+    # url(r'^sp', hello.views.splogin)
+    path('sp/', include('hello.urls'))
     # path('polls/', include('polls.urls'))
+# https://gentle-stream.herokuapp.com/sp?error=access_denied
 ]

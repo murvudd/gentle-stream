@@ -33,19 +33,8 @@ def base(request):
     return render(request, 'base.html')
 
 
-def spauth(request):
-#
-#     oauth = oauth2.SpotifyOAuth(
-#         client_id=os.environ['CLIENT_ID'],
-#         client_secret=os.environ['CLIENT_SECRET'],
-#         redirect_uri=os.environ['SPOTIPY_REDIRECT_URI'],
-#         scope='user-library-read')
-#     auth_url = oauth.get_authorize_url()
-#     # (resp_headers, content) = httplib2.Http().request(auth_url, "GET")
-#     # content = str(content)
-#     # content = re.sub(r"b'", "", content)
-#     # content = re.sub(r"\\n'", "", content)
-#     # HttpResponse()
+def sperr(request):
+
     return render(request, 'temp.html', {'http_context': "str(content)"})
 
 
