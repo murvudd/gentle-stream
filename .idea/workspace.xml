@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="085b1d4e-349d-4fbe-bcd7-6d21e730146c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello/templates/temp.html" beforeDir="false" afterPath="$PROJECT_DIR$/hello/templates/temp.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,14 +65,14 @@
           <entry key="HTML" value="1836" />
           <entry key="Locale" value="349" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="857" />
+          <entry key="Python" value="868" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1836" />
           <entry key="po" value="349" />
-          <entry key="py" value="857" />
+          <entry key="py" value="868" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -124,11 +123,11 @@
             <entry file="file://$PROJECT_DIR$/hello/views.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="521">
-                  <caret line="42" column="39" lean-forward="true" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+                  <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
                   <folding>
                     <element signature="e#0#9#0" expanded="true" />
-                    <marker date="1534795833391" expanded="true" signature="331:336" ph="..." />
-                    <marker date="1534795833391" expanded="true" signature="613:618" ph="..." />
+                    <marker date="1534797748327" expanded="true" signature="341:346" ph="..." />
+                    <marker date="1534797748327" expanded="true" signature="623:628" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -191,7 +190,7 @@
             <entry file="file://$PROJECT_DIR$/hello/templates/temp.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="176">
-                  <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+                  <caret line="8" selection-start-line="8" selection-end-line="8" />
                 </state>
               </provider>
             </entry>
@@ -587,11 +586,11 @@
     <entry file="file://$PROJECT_DIR$/hello/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
-          <caret line="42" column="39" lean-forward="true" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+          <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1534795833391" expanded="true" signature="331:336" ph="..." />
-            <marker date="1534795833391" expanded="true" signature="613:618" ph="..." />
+            <marker date="1534797748327" expanded="true" signature="341:346" ph="..." />
+            <marker date="1534797748327" expanded="true" signature="623:628" ph="..." />
           </folding>
         </state>
       </provider>
@@ -599,7 +598,7 @@
     <entry file="file://$PROJECT_DIR$/hello/templates/temp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
