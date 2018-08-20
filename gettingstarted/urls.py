@@ -17,7 +17,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('^code=', hello.views.splogin),
     # url(r'^sp', hello.views.splogin)
-    path('sp/', include('hello.urls'))
+    url(r'^sp', hello.views.splogin)
+    # path('sp/', include('hello.urls'))
     # path('polls/', include('polls.urls'))
 # https://gentle-stream.herokuapp.com/sp?error=access_denied
 ]
