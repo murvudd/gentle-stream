@@ -3,7 +3,8 @@ from django.urls import path
 import hello.views
 
 urlpatterns = [
-    path('', hello.views.splogin),
+    path('', hello.views.spauth()),
+    path('splogin/', hello.views.splogin())
     # url(r'^$', hello.views.index, name='index'),
     # url(r'^db', hello.views.db, name='db'),
     # url(r'^base', hello.views.base, name='db'),
