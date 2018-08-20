@@ -33,7 +33,7 @@ def base(request):
     return render(request, 'base.html')
 
 
-# def spauth(request):
+def spauth(request):
 #
 #     oauth = oauth2.SpotifyOAuth(
 #         client_id=os.environ['CLIENT_ID'],
@@ -46,11 +46,9 @@ def base(request):
 #     # content = re.sub(r"b'", "", content)
 #     # content = re.sub(r"\\n'", "", content)
 #     # HttpResponse()
-#     return render(request, 'temp.html', {'http_context': "str(content)"})
+    return render(request, 'temp.html', {'http_context': "str(content)"})
 
 
 def splogin(request):
-    # text = os.environ
-    text = os.environ["SPOTIPY_REDIRECT_URI"]
-    # text = "text zy pythona"
-    return render(request, 'splogin.html', {'val': text})
+
+    return render(request, 'splogin.html', {'val': "success"})
