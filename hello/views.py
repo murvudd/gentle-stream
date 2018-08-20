@@ -1,15 +1,10 @@
 import os
-import re
 from django.shortcuts import render
-# import django.http.request as http_request
-from django.utils import translation
 from django.http import HttpResponse
-import spotipy
 from .models import Greeting
 import json
 import spotipy
 import spotipy.oauth2 as oauth2
-import httplib2
 
 
 # Create your views here.
@@ -38,20 +33,20 @@ def base(request):
     return render(request, 'base.html')
 
 
-def spauth(request):
-
-    oauth = oauth2.SpotifyOAuth(
-        client_id=os.environ['CLIENT_ID'],
-        client_secret=os.environ['CLIENT_SECRET'],
-        redirect_uri=os.environ['SPOTIPY_REDIRECT_URI'],
-        scope='user-library-read')
-    auth_url = oauth.get_authorize_url()
-    # (resp_headers, content) = httplib2.Http().request(auth_url, "GET")
-    # content = str(content)
-    # content = re.sub(r"b'", "", content)
-    # content = re.sub(r"\\n'", "", content)
-    # HttpResponse()
-    return render(request, 'temp.html', {'http_context': "str(content)"})
+# def spauth(request):
+#
+#     oauth = oauth2.SpotifyOAuth(
+#         client_id=os.environ['CLIENT_ID'],
+#         client_secret=os.environ['CLIENT_SECRET'],
+#         redirect_uri=os.environ['SPOTIPY_REDIRECT_URI'],
+#         scope='user-library-read')
+#     auth_url = oauth.get_authorize_url()
+#     # (resp_headers, content) = httplib2.Http().request(auth_url, "GET")
+#     # content = str(content)
+#     # content = re.sub(r"b'", "", content)
+#     # content = re.sub(r"\\n'", "", content)
+#     # HttpResponse()
+#     return render(request, 'temp.html', {'http_context': "str(content)"})
 
 
 def splogin(request):

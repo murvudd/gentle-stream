@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="085b1d4e-349d-4fbe-bcd7-6d21e730146c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gettingstarted/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gettingstarted/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hello/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,14 +65,14 @@
           <entry key="HTML" value="1867" />
           <entry key="Locale" value="349" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="900" />
+          <entry key="Python" value="910" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1867" />
           <entry key="po" value="349" />
-          <entry key="py" value="900" />
+          <entry key="py" value="910" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -82,13 +80,13 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46707106">
+    <splitter split-orientation="horizontal" split-proportion="0.6941075">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gettingstarted/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="616">
+                <state relative-caret-position="418">
                   <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
                   <folding>
                     <element signature="e#313#322#0" expanded="true" />
@@ -121,15 +119,15 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hello/views.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="506">
-                  <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+                  <caret line="35" selection-start-line="35" selection-start-column="2" selection-end-line="48" selection-end-column="75" />
                   <folding>
                     <element signature="e#0#9#0" expanded="true" />
-                    <marker date="1534798711196" expanded="true" signature="341:346" ph="..." />
-                    <marker date="1534798711196" expanded="true" signature="906:911" ph="..." />
+                    <marker date="1534801008383" expanded="true" signature="218:223" ph="..." />
+                    <marker date="1534801008383" expanded="true" signature="783:788" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -191,7 +189,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hello/templates/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="576">
+                <state relative-caret-position="595">
                   <caret line="96" column="19" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
                 </state>
               </provider>
@@ -262,9 +260,9 @@
         <option value="$PROJECT_DIR$/hello/urls.py" />
         <option value="$PROJECT_DIR$/hello/templates/temp.html" />
         <option value="$PROJECT_DIR$/hello/templates/test.html" />
-        <option value="$PROJECT_DIR$/hello/views.py" />
         <option value="$PROJECT_DIR$/gettingstarted/settings.py" />
         <option value="$PROJECT_DIR$/hello/templates/index.html" />
+        <option value="$PROJECT_DIR$/hello/views.py" />
       </list>
     </option>
   </component>
@@ -589,21 +587,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1534798711196" expanded="true" signature="341:346" ph="..." />
-            <marker date="1534798711196" expanded="true" signature="906:911" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
+        <state relative-caret-position="595">
           <caret line="96" column="19" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="19" />
         </state>
       </provider>
@@ -620,10 +606,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gettingstarted/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
+        <state relative-caret-position="418">
           <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding>
             <element signature="e#313#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="35" selection-start-line="35" selection-start-column="2" selection-end-line="48" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1534801008383" expanded="true" signature="218:223" ph="..." />
+            <marker date="1534801008383" expanded="true" signature="783:788" ph="..." />
           </folding>
         </state>
       </provider>
