@@ -2,8 +2,8 @@
 {% load staticfiles %}
 {% load i18n %}
 {% block content %}
-{#{% autoescape on %}#}
+{% autoescape on %}
 {#    {{ http_context }}#}
     {{ http_context }}
-{#{% endautoescape %}#}
+{% endautoescape %}
 {% endblock %}
