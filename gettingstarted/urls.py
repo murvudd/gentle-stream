@@ -16,7 +16,7 @@ urlpatterns = [
     url(r'^base', hello.views.base, name='db'),
     path('admin/', admin.site.urls),
     # path('^code=', hello.views.splogin),
-    url(r'^sp?code=', hello.views.splogin)
+    url(r'^sp', hello.views.splogin)
     # path('sp/', include('hello.urls'))
     # path('polls/', include('polls.urls'))
 ]
