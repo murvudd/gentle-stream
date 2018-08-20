@@ -42,7 +42,7 @@ def spauth(request):
     auth_url = oauth.get_authorize_url()
     (resp_headers, content) = httplib2.Http().request(auth_url, "GET")
     # HttpResponse()
-    return render(request, 'temp.html', {'http_context': content})
+    return render(request, 'temp.html', {'http_context': str(content)})
 
 
 def splogin(request):
