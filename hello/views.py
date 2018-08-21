@@ -38,7 +38,8 @@ def sperr(request):
     return render(request, 'temp.html', {'http_context': "str(content)"})
 
 
-def splogin(request, code):
+def splogin(request):
+    code = request.GET()
     print("code", code)
     # code = str(code)
     return render(request, 'splogin.html', {'code':  code, 'request': request, 'URI': os.environ['SPOTIPY_REDIRECT_URI']})
