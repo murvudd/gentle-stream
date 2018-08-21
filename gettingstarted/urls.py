@@ -17,6 +17,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # url(r'^sp/(?P<code>[\w.@+-/]+)$', hello.views.splogin),
     url(r'^sp/(?P<code>.+)$', hello.views.splogin),
+    url(r'^sp/', hello.views.splogin),
     # url(r'^sp(?P<code>[\W\w.@+-/]+)$', hello.views.splogin)
     # url(r'^sp(?P<code>[\w.@+-]+)$', hello.views.splogin)
 
