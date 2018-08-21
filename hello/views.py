@@ -47,7 +47,8 @@ def base(request):
 def splogin(request):
     code = request.GET.get('code', '')
     CHACHE_PATH = os.path.join(BASE_DIR, 'testcache')
-    h = oauth2.SpotifyOAuth(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, cache_path=CHACHE_PATH)
+    SCOPE=""
+    h = oauth2.SpotifyOAuth(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, scope=SCOPE, cache_path=CHACHE_PATH)
     try:
         token_info = h.get_cached_token()
     except IOError:
@@ -55,6 +56,9 @@ def splogin(request):
 
     if code != '':
         token_info = h.get_access_token(code=code)
+    tokenJson = json.load(token_info)
+    access_token = tokenJson['access_token']
+    refresh_token = tokenJson['refresh_token']
 
     return render(request, 'splogin.html', {'val1':  code,
                                             'val2': token_info})
