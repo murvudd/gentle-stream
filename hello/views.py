@@ -43,7 +43,7 @@ def splogin(request):
     # # if request.GET.get('code', "defautl test"):
     #     val = request.GET['code']
 
-    val = request.GET['code']
+    # val = request.GET['code']
     # request.GET['error']
     # request.GET['status']
-    return render(request, 'splogin.html', {'value':  val, 'request': request})
+    return render(request, 'splogin.html', {'value':  request.GET['code'], 'request': request})

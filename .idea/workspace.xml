@@ -62,17 +62,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1943" />
+          <entry key="HTML" value="1956" />
           <entry key="Locale" value="349" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="2040" />
+          <entry key="Python" value="2072" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1943" />
+          <entry key="html" value="1956" />
           <entry key="po" value="349" />
-          <entry key="py" value="2040" />
+          <entry key="py" value="2072" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -105,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello/templates/splogin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <state relative-caret-position="176">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -126,12 +126,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+            <state relative-caret-position="719">
+              <caret line="48" column="60" lean-forward="true" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1534821360144" expanded="true" signature="218:223" ph="..." />
-                <marker date="1534821360144" expanded="true" signature="783:788" ph="..." />
+                <marker date="1534821615475" expanded="true" signature="218:223" ph="..." />
+                <marker date="1534821615475" expanded="true" signature="783:788" ph="..." />
               </folding>
             </state>
           </provider>
@@ -173,8 +173,8 @@
         <option value="$PROJECT_DIR$/gettingstarted/settings.py" />
         <option value="$PROJECT_DIR$/hello/templates/index.html" />
         <option value="$PROJECT_DIR$/hello/urls.py" />
-        <option value="$PROJECT_DIR$/hello/templates/splogin.html" />
         <option value="$PROJECT_DIR$/gettingstarted/urls.py" />
+        <option value="$PROJECT_DIR$/hello/templates/splogin.html" />
         <option value="$PROJECT_DIR$/hello/views.py" />
       </list>
     </option>
@@ -479,8 +479,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello/templates/splogin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="176">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -496,12 +496,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        <state relative-caret-position="719">
+          <caret line="48" column="60" lean-forward="true" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1534821360144" expanded="true" signature="218:223" ph="..." />
-            <marker date="1534821360144" expanded="true" signature="783:788" ph="..." />
+            <marker date="1534821615475" expanded="true" signature="218:223" ph="..." />
+            <marker date="1534821615475" expanded="true" signature="783:788" ph="..." />
           </folding>
         </state>
       </provider>
