@@ -15,7 +15,10 @@ urlpatterns = [
     url(r'^db', hello.views.db, name='db'),
     url(r'^base', hello.views.base, name='db'),
     path('admin/', admin.site.urls),
-    path('sp/', include('hello.urls')),
+    path(r'sp/?code=(?P<code>.*)', hello.views.splogin),
+
+    # url(r'(code=(?P<code>.*))', hello.views.splogin,  name='logged in')
+
     # url(r'^sp\?error', hello.views.sperr),
     # url(r'^sp/(?!\?code=).+$', hello.views.sperr)
     #
