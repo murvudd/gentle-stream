@@ -40,4 +40,4 @@ def sperr(request):
 
 def splogin(request, code):
 
-    return render(request, 'splogin.html', {'val':  "text", 'req_type': request})
+    return render(request, 'splogin.html', {'code':  code, 'request': request})
