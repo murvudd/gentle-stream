@@ -39,7 +39,7 @@ def sperr(request):
 
 
 def splogin(request):
-    if request.GET.get('error'):
+    if request.GET.get('error', "test default"):
     # # if request.GET.get('code', "defautl test"):
         val = request.GET['error']
 
