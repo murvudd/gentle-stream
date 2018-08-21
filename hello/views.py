@@ -39,11 +39,12 @@ def sperr(request):
 
 
 def splogin(request):
-    if request.GET.get('error', "test default"):
+    val = ""
+    if request.GET.get('code', "test default"):
     # # if request.GET.get('code', "defautl test"):
-        val = request.GET['error']
+        val = request.GET['code']
 
     # val = request.GET['code']
     # request.GET['error']
     # request.GET['status']
-    return render(request, 'splogin.html', {'value':  val, 'request': request})
+    return render(request, 'splogin.html', {'value':  val, 'request': str(request.GET.get('error', "test default"))})
