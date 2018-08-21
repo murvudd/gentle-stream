@@ -39,5 +39,5 @@ def sperr(request):
 
 
 def splogin(request):
-    val = request.GET[0]
+    val = request.GET['code']
     return render(request, 'splogin.html', {'value':  val})
