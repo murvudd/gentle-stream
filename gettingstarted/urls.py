@@ -15,10 +15,12 @@ urlpatterns = [
     url(r'^db', hello.views.db, name='db'),
     url(r'^base', hello.views.base, name='db'),
     path('admin/', admin.site.urls),
+    url(r'^sp/?code=', hello.views.splogin),
+    url(r'^sp/(?!\?code=).+$', hello.views.sperr)
     # path('^code=', hello.views.splogin),
     # url(r'^sp', hello.views.splogin)
     # url(r'^sp/', hello.views.splogin)
-    path('sp/', include('hello.urls'))
+    # path('sp/', include('hello.urls'))
     # path('polls/', include('polls.urls'))
-# https://gentle-stream.herokuapp.com/sp?error=access_denied
+    # https://gentle-stream.herokuapp.com/sp?error=access_denied
 ]
