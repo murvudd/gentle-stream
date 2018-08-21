@@ -16,7 +16,7 @@ def index(request):
         client_secret=os.environ['CLIENT_SECRET'],
         redirect_uri=os.environ['SPOTIPY_REDIRECT_URI'],
         scope='user-library-read',
-        cache_path=os.path.join(BASE_DIR, 'cache/')
+        cache_path=os.path.join(BASE_DIR, 'cache/testcache')
     )
 
     auth_url = oauth.get_authorize_url()
