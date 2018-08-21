@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="085b1d4e-349d-4fbe-bcd7-6d21e730146c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/hello/templates/splogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/hello/templates/splogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,14 +66,14 @@
           <entry key="HTML" value="1970" />
           <entry key="Locale" value="349" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="2181" />
+          <entry key="Python" value="2244" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1970" />
           <entry key="po" value="349" />
-          <entry key="py" value="2181" />
+          <entry key="py" value="2244" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -94,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gettingstarted/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1613">
-              <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+            <state relative-caret-position="2772">
+              <caret line="126" column="10" selection-start-line="126" selection-start-column="10" selection-end-line="126" selection-end-column="10" />
               <folding>
                 <element signature="e#313#322#0" expanded="true" />
               </folding>
@@ -103,24 +103,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello/templates/splogin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="176">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="42" column="49" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="49" />
+            <state relative-caret-position="396">
+              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1534822029413" expanded="true" signature="218:223" ph="..." />
-                <marker date="1534822029413" expanded="true" signature="783:788" ph="..." />
+                <marker date="1534822664069" expanded="true" signature="263:268" ph="..." />
+                <marker date="1534822664069" expanded="true" signature="887:892" ph="..." />
               </folding>
             </state>
           </provider>
@@ -172,8 +172,8 @@
         <option value="$PROJECT_DIR$/hello/templates/index.html" />
         <option value="$PROJECT_DIR$/hello/urls.py" />
         <option value="$PROJECT_DIR$/gettingstarted/urls.py" />
-        <option value="$PROJECT_DIR$/hello/views.py" />
         <option value="$PROJECT_DIR$/hello/templates/splogin.html" />
+        <option value="$PROJECT_DIR$/hello/views.py" />
       </list>
     </option>
   </component>
@@ -233,7 +233,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="splogin&#9;FILE&#9;file:///home/zaba/Repos/python-getting-started/hello/templates/splogin.html" />
+    <property name="SearchEverywhereHistoryKey" value="BASE&#9;null&#9;null&#10;splogin&#9;FILE&#9;file:///home/zaba/Repos/python-getting-started/hello/templates/splogin.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -465,16 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gettingstarted/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1613">
-          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-          <folding>
-            <element signature="e#313#322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gettingstarted/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -482,22 +472,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello/views.py">
+    <entry file="file://$PROJECT_DIR$/gettingstarted/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="42" column="49" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="49" />
+        <state relative-caret-position="2772">
+          <caret line="126" column="10" selection-start-line="126" selection-start-column="10" selection-end-line="126" selection-end-column="10" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1534822029413" expanded="true" signature="218:223" ph="..." />
-            <marker date="1534822029413" expanded="true" signature="783:788" ph="..." />
+            <element signature="e#313#322#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hello/templates/splogin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="176">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1534822664069" expanded="true" signature="263:268" ph="..." />
+            <marker date="1534822664069" expanded="true" signature="887:892" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

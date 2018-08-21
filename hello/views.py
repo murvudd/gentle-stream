@@ -1,4 +1,5 @@
 import os
+from gettingstarted.settings import BASE_DIR
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Greeting
@@ -14,7 +15,10 @@ def index(request):
         client_id=os.environ['CLIENT_ID'],
         client_secret=os.environ['CLIENT_SECRET'],
         redirect_uri=os.environ['SPOTIPY_REDIRECT_URI'],
-        scope='user-library-read')
+        scope='user-library-read',
+        cache_path=os.path.join(BASE_DIR, 'cache/')
+    )
+
     auth_url = oauth.get_authorize_url()
     return render(request, 'index.html', {"auth_url": auth_url})
 
