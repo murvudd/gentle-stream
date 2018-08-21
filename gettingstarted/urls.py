@@ -16,8 +16,8 @@ urlpatterns = [
     url(r'^base', hello.views.base, name='db'),
     path('admin/', admin.site.urls),
     # url(r'^sp/(?P<code>[\w.@+-/]+)$', hello.views.splogin),
-    url(r'^sp/(?P<code>[-_?=\w\W]+)$', hello.views.splogin),
-    url(r'^sp(?P<code>[-_?=\w\W]+)$', hello.views.splogin)
+    url(r'^sp/(?P<code>[\w\W]+)$', hello.views.splogin),
+    url(r'^sp(?P<code>[\w\W]+)$', hello.views.splogin)
     # url(r'^sp(?P<code>[\W\w.@+-/]+)$', hello.views.splogin)
     # url(r'^sp(?P<code>[\w.@+-]+)$', hello.views.splogin)
 
