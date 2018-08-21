@@ -20,7 +20,7 @@ urlpatterns = [
     #
     #
     # url(r'^sp/(?P<code>.+)', hello.views.splogin)
-    url(r'^sp.*(?P<code>.*)', hello.views.splogin)
+    url(r'^sp(?P<code>(.*))', hello.views.splogin)
     #
     #
     # path('^code=', hello.views.splogin),

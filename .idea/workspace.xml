@@ -65,14 +65,14 @@
           <entry key="HTML" value="1939" />
           <entry key="Locale" value="349" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="1387" />
+          <entry key="Python" value="1392" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1939" />
           <entry key="po" value="349" />
-          <entry key="py" value="1387" />
+          <entry key="py" value="1392" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -115,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/gettingstarted/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="484">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -524,7 +524,7 @@
     <entry file="file://$PROJECT_DIR$/gettingstarted/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
