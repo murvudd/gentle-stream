@@ -38,6 +38,6 @@ def sperr(request):
     return render(request, 'temp.html', {'http_context': "str(content)"})
 
 
-def splogin(request, code):
+def splogin(request):
     text = _('category/<slug:slug>/')
     return render(request, 'splogin.html', {'val':  text, 'req_type': type(request)})
