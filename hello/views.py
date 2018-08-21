@@ -18,9 +18,9 @@ def index(request):
         scope='user-library-read',
         cache_path=os.path.join(BASE_DIR, 'cache/testcache')
     )
-    uri=os.environ['SPOTIPY_REDIRECT_URI']
+
     auth_url = oauth.get_authorize_url()
-    return render(request, 'index.html', {"auth_url": auth_url, "redirect_url": uri})
+    return render(request, 'index.html', {"auth_url": auth_url})
 
 
 def db(request):
