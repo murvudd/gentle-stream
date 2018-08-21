@@ -15,24 +15,8 @@ urlpatterns = [
     url(r'^db', hello.views.db, name='db'),
     url(r'^base', hello.views.base, name='db'),
     path('admin/', admin.site.urls),
-    # url(r'^sp/(?P<code>[\w.@+-/]+)$', hello.views.splogin),
-    # url(r'^sp/(?P<code>.]+)$', hello.views.splogin),
     url(r'^sp', hello.views.splogin, name='loggin')
-    # url(r'^sp(?P<code>[\W\w.@+-/]+)$', hello.views.splogin)
-    # url(r'^sp(?P<code>[\w.@+-]+)$', hello.views.splogin)
 
-    # url(r'(code=(?P<code>.*))', hello.views.splogin,  name='logged in')
-
-    # url(r'^sp\?error', hello.views.sperr),
-    # url(r'^sp/(?!\?code=).+$', hello.views.sperr)
-    #
-    #
-    # url(r'^sp/(?P<code>.+)', hello.views.splogin)
-    # url(r'^sp(?P<code>(.*))', hello.views.splogin)
-    #
-    #
-    # path('^code=', hello.views.splogin),
-    # url(r'^sp', hello.views.splogin)
     # url(r'^sp/', hello.views.splogin)
     # path('sp/', include('hello.urls'))
     # path('polls/', include('polls.urls'))
