@@ -46,4 +46,4 @@ def splogin(request):
     val = request.GET['code']
     # request.GET['error']
     # request.GET['status']
-    return render(request, 'splogin.html', {'value':  val})
+    return render(request, 'splogin.html', {'value':  val, 'request': request})
