@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="085b1d4e-349d-4fbe-bcd7-6d21e730146c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="085b1d4e-349d-4fbe-bcd7-6d21e730146c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +29,7 @@
     <session id="120563848">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
@@ -66,14 +63,14 @@
           <entry key="HTML" value="1970" />
           <entry key="Locale" value="349" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="2244" />
+          <entry key="Python" value="2253" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1970" />
           <entry key="po" value="349" />
-          <entry key="py" value="2244" />
+          <entry key="py" value="2253" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -115,12 +112,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+            <state relative-caret-position="301">
+              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1534822664069" expanded="true" signature="263:268" ph="..." />
-                <marker date="1534822664069" expanded="true" signature="887:892" ph="..." />
+                <marker date="1534822778487" expanded="true" signature="263:268" ph="..." />
+                <marker date="1534822778487" expanded="true" signature="896:901" ph="..." />
               </folding>
             </state>
           </provider>
@@ -491,12 +488,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+        <state relative-caret-position="301">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1534822664069" expanded="true" signature="263:268" ph="..." />
-            <marker date="1534822664069" expanded="true" signature="887:892" ph="..." />
+            <marker date="1534822778487" expanded="true" signature="263:268" ph="..." />
+            <marker date="1534822778487" expanded="true" signature="896:901" ph="..." />
           </folding>
         </state>
       </provider>
