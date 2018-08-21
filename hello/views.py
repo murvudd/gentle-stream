@@ -39,9 +39,5 @@ def sperr(request):
 
 
 def splogin(request):
-    val = ''
-    if request.GET['code']:
-        val = request.GET['code']
-    # if request.GET['error']:
-    #     val = request.GET['error']
-    return render(request, 'splogin.html', {'value':  val, 'request': request, 'URI': os.environ['SPOTIPY_REDIRECT_URI']})
+    val = request.GET['error']
+    return render(request, 'splogin.html', {'value':  val})
