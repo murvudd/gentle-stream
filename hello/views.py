@@ -5,7 +5,7 @@ from .models import Greeting
 import json
 import spotipy
 import spotipy.oauth2 as oauth2
-
+from django.utils.translation import gettext_lazy as _
 
 # Create your views here.
 def index(request):
@@ -39,5 +39,5 @@ def sperr(request):
 
 
 def splogin(request):
-
-    return render(request, 'splogin.html', {'val': "success"})
+    text = _('category/<slug:slug>/')
+    return render(request, 'splogin.html', {'val':  type(text), 'req_type': type(request)})
