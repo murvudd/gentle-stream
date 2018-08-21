@@ -57,8 +57,8 @@ def splogin(request):
     if code != '':
         token_info = h.get_access_token(code=code)
     tokenJson = json.load(token_info)
-    access_token = tokenJson['access_token']
-    refresh_token = tokenJson['refresh_token']
+    # access_token = tokenJson['access_token']
+    # refresh_token = tokenJson['refresh_token']
 
     return render(request, 'splogin.html', {'val1':  code,
                                             'val2': token_info})
