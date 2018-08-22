@@ -1,4 +1,5 @@
 from django.db import models
+import uuid
 
 
 # Create your models here.
@@ -7,7 +8,7 @@ class Greeting(models.Model):
 
 
 class ApiData(models.Model):
-    
-    Id = models.UUIDField(primary_key=True, editable=False)
+
+    Id = models.UUIDField(primary_key=True, default=uuid.uuid4(), editable=False)
     access_token = models.fields.TextField()
     refresh_token = models.TextField()

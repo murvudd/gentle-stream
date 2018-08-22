@@ -67,6 +67,7 @@ def splogin(request):
     if code != '':
         token_info = h.get_access_token(code=code)
     # tokenJson = json.load(token_info)
+    # user_auth.Id =
     user_auth = models.ApiData()
     user_auth.access_token = token_info['access_token']
     user_auth.refresh_token = token_info['refresh_token']
