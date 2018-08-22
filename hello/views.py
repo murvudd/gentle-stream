@@ -56,9 +56,8 @@ def base(request):
 
 def splogin(request):
     code = request.GET.get('code', '')
-    CHACHE_PATH = os.path.join(BASE_DIR, 'testcache')
-    SCOPE=""
-    h = oauth2.SpotifyOAuth(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, scope=SCOPE,
+    # CHACHE_PATH = os.path.join(BASE_DIR, 'testcache')
+    h = oauth2.SpotifyOAuth(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, scope=SCOPES,
                             # cache_path=CHACHE_PATH
                             )
     # try:
