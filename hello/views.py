@@ -2,7 +2,8 @@ import os
 from gettingstarted.settings import BASE_DIR
 from django.shortcuts import render
 from django.http import HttpResponse, HttpRequest
-from .models import Greeting
+# from .models import Greeting
+import hello.models as models
 import httplib2
 import json
 import spotipy
@@ -11,6 +12,15 @@ import spotipy.oauth2 as oauth2
 CLIENT_ID = os.environ['CLIENT_ID']
 CLIENT_SECRET = os.environ['CLIENT_SECRET']
 REDIRECT_URI = os.environ['SPOTIPY_REDIRECT_URI']
+# CACHE_PATH = os.path.join(BASE_DIR, 'cache/testcache')
+# CACHE_PATH = ""
+SCOPES = "" \
+         "playlist-read-collaborative " \
+         "playlist-read-private " \
+         "user-follow-read " \
+         "user-library-read " \
+         "user-top-read " \
+         "user-read-recently-played"
 
 
 # Create your views here.
@@ -20,8 +30,8 @@ def index(request):
         client_id=CLIENT_ID,
         client_secret=CLIENT_SECRET,
         redirect_uri=REDIRECT_URI,
-        scope='user-library-read',
-        cache_path=os.path.join(BASE_DIR, 'cache/testcache')
+        scope=SCOPES
+        # cache_path=CACHE_PATH
     )
     auth_url = oauth.get_authorize_url()
 
@@ -29,10 +39,10 @@ def index(request):
 
 
 def db(request):
-    greeting = Greeting()
+    greeting = models.Greeting()
     greeting.save()
 
-    greetings = Greeting.objects.all()
+    greetings = models.Greeting.objects.all()
     return render(request, 'db.html', {'greetings': greetings})
 
 
@@ -57,8 +67,9 @@ def splogin(request):
     if code != '':
         token_info = h.get_access_token(code=code)
     # tokenJson = json.load(token_info)
-    access_token = token_info['access_token']
-    refresh_token = token_info['refresh_token']
-
-    return render(request, 'splogin.html', {'val1':  access_token,
-                                            'val2': refresh_token})
+    user_auth = models.ApiData()
+    user_auth.access_token = token_info['access_token']
+    user_auth.refresh_token = token_info['refresh_token']
+    user_auth.save()
+    return render(request, 'splogin.html', {'val1':  user_auth.Id,
+                                            'val2': ""})

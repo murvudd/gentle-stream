@@ -6,4 +6,6 @@ class Greeting(models.Model):
     when = models.DateTimeField('date created', auto_now_add=True)
 
 class ApiData(models.Model):
-    audiofeature = models.CharField
+    Id = models.UUIDField()
+    access_token = models.fields.TextField()
+    refresh_token = models.TextField()
