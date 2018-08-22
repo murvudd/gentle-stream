@@ -13,7 +13,7 @@ CLIENT_ID = os.environ['CLIENT_ID']
 CLIENT_SECRET = os.environ['CLIENT_SECRET']
 REDIRECT_URI = os.environ['SPOTIPY_REDIRECT_URI']
 # CACHE_PATH = os.path.join(BASE_DIR, 'cache/testcache')
-# CACHE_PATH = ""
+CACHE_PATH = ""
 SCOPES = "" \
          "playlist-read-collaborative " \
          "playlist-read-private " \
@@ -58,11 +58,13 @@ def splogin(request):
     code = request.GET.get('code', '')
     CHACHE_PATH = os.path.join(BASE_DIR, 'testcache')
     SCOPE=""
-    h = oauth2.SpotifyOAuth(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, scope=SCOPE, cache_path=CHACHE_PATH)
-    try:
-        token_info = h.get_cached_token()
-    except IOError:
-        pass
+    h = oauth2.SpotifyOAuth(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, scope=SCOPE,
+                            # cache_path=CHACHE_PATH
+                            )
+    # try:
+    #     token_info = h.get_cached_token()
+    # except IOError:
+    #     pass
 
     if code != '':
         token_info = h.get_access_token(code=code)
