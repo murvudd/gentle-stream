@@ -4,6 +4,4 @@ staticfiles
 .env
 db.sqlite3
 testcache
-.idea/
 .idea
-.idea/workspace.xml
