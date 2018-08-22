@@ -60,10 +60,10 @@ def splogin(request):
     h = oauth2.SpotifyOAuth(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, scope=SCOPES,
                             # cache_path=CHACHE_PATH
                             )
-    # try:
-    #     token_info = h.get_cached_token()
-    # except IOError:
-    #     pass
+    try:
+        token_info = h.get_cached_token()
+    except IOError:
+        pass
 
     if code != '':
         token_info = h.get_access_token(code=code)
