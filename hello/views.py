@@ -79,5 +79,5 @@ def splogin(request):
     user_auth.access_token = token_info['access_token']
     user_auth.refresh_token = token_info['refresh_token']
     user_auth.save()
-    return render(request, 'splogin.html', {'val1':  user_auth.Id,
+    return render(request, 'splogin.html', {'val1': "",
                                             'val2': ""})
