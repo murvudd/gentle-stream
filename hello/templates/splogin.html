@@ -3,7 +3,18 @@
 
 {% load i18n %}
 {% block content %}
-    <h2> val1 {{ val1 }} </h2>
-    <h3>val2 {{ val2 }}</h3>
+    <div class="jumbotron text-center">
+        <div class="jumbotron text-center">
+
+            <h2> {% trans "Thank You" %} </h2>
+            <h3>{% trans "that's all" %}</h3>
+            <h4>
+
+            </h4>
+        </div>
+    </div>
+    <div align="center">
+        <a type="button" class="btn btn-lg btn-primary text-center" href="/"><span class="glyphicon glyphicon-home"></span> {% trans "Go back" %}</a>
+    </div>
 
 {% endblock %}

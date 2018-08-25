@@ -38,46 +38,48 @@ def index(request):
     return render(request, 'index.html', {"auth_url": auth_url})
 
 
-def db(request):
-    greeting = models.Greeting()
-    greeting.save()
-
-    greetings = models.Greeting.objects.all()
-    return render(request, 'db.html', {'greetings': greetings})
-
-
-def base(request):
-    return render(request, 'base.html')
+# def db(request):
+#     greeting = models.Greeting()
+#     greeting.save()
+#
+#     greetings = models.Greeting.objects.all()
+#     return render(request, 'db.html', {'greetings': greetings})
 
 
-# def sperr(request):
-#     return render(request, 'temp.html', {'http_context': "str(content)"})
+# def base(request):
+#     return render(request, 'base.html')
+
+
+
+def howitworks(request):
+
+    return render(request, 'howitworks.html')
 
 
 def splogin(request):
     code = request.GET.get('code', '')
     # CHACHE_PATH = os.path.join(BASE_DIR, 'testcache')
-    h = oauth2.SpotifyOAuth(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, scope=SCOPES,
-                            # cache_path=CHACHE_PATH
-                            )
-    try:
-        token_info = h.get_cached_token()
-    except IOError:
-        raise
-        # pass
+    # h = oauth2.SpotifyOAuth(CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, scope=SCOPES,
+    #                         # cache_path=CHACHE_PATH
+    #                         )
+    # try:
+    #     token_info = h.get_cached_token()
+    # except IOError:
+    #     raise
+    #    # pass
 
     # if code != '':
     #     token_info = h.get_access_token(code=code)
-    try:
-        token_info = h.get_access_token(code=code)
-    except:
-        raise
-        # pass
-    # tokenJson = json.load(token_info)
-    # user_auth.Id =
-    user_auth = models.ApiData()
-    user_auth.access_token = token_info['access_token']
-    user_auth.refresh_token = token_info['refresh_token']
-    user_auth.save()
+    # try:
+    #     token_info = h.get_access_token(code=code)
+    # except:
+    #     raise
+    #     # pass
+    # # tokenJson = json.load(token_info)
+    # # user_auth.Id =
+    # user_auth = models.ApiData()
+    # user_auth.access_token = token_info['access_token']
+    # user_auth.refresh_token = token_info['refresh_token']
+    # user_auth.save()
     return render(request, 'splogin.html', {'val1': "",
                                             'val2': ""})
