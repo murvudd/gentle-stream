@@ -12,8 +12,8 @@ admin.autodiscover()
 
 urlpatterns = [
     url(r'^$', hello.views.index, name='index'),
-    url(r'^db', hello.views.db, name='db'),
-    url(r'^base', hello.views.base, name='db'),
+    # url(r'^db', hello.views.db, name='db'),
+    # url(r'^base', hello.views.base, name='db'),
     path('admin/', admin.site.urls),
     url(r'^sp', hello.views.splogin, name='loggin')
 
