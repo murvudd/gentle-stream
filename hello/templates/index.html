@@ -60,7 +60,7 @@
                         <li> {% trans "Your spotify login" %}</li>
                         <li> {% trans "Any data that could identify you" %}</li>
                     </ul>
-                    <li>{% trans "Gentle Stream does log spotify API access and refresh tokens with these" %} <a href = "https://developer.spotify.com/documentation/general/guides/scopes/#user-library-read">scopes:</a> </li>
+                    <li>{% trans "Gentle Stream does log " %} <a herf="https://developer.spotify.com/documentation/web-api/">Spotify Api </a>{% trans "access and refresh tokens with these " %}<a href = "https://developer.spotify.com/documentation/general/guides/scopes/#user-library-read">scopes:</a>
                     <ul>
                         <li>{% trans "playlist-read-collaborative " %}</li>
                         <li>{% trans "playlist-read-private " %}</li>
@@ -69,6 +69,9 @@
                         <li>{% trans "user-top-read" %}</li>
                         <li>{% trans "user-read-recently-played" %}</li>
                     </ul>
+                        {% trans "which will be used to create custom database of Spotify users listenging preferences" %}
+                    </li>
+                    <li>{% trans "By clicking Let's go button below, you confirm that you have read, and accept this Data Policy" %}</li>
                 </ul>
             </div>
         </div> <!-- row -->

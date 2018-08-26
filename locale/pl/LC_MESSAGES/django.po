@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-26 11:01+0000\n"
+"POT-Creation-Date: 2018-08-26 11:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,7 +92,13 @@ msgid "Any data that could identify you"
 msgstr ""
 
 #: hello/templates/index.html:63
-msgid "Gentle Stream does log spotify API access and refresh tokens with these"
+#, fuzzy
+#| msgid "Gentle Stream DOES NOT log:"
+msgid "Gentle Stream does log "
+msgstr "Gentle Stream NIE zapisuje:"
+
+#: hello/templates/index.html:63
+msgid "access and refresh tokens with these "
 msgstr ""
 
 #: hello/templates/index.html:65
@@ -119,7 +125,19 @@ msgstr ""
 msgid "user-read-recently-played"
 msgstr ""
 
-#: hello/templates/index.html:76
+#: hello/templates/index.html:72
+msgid ""
+"which will be used to create custom database of Spotify users listenging "
+"preferences"
+msgstr ""
+
+#: hello/templates/index.html:74
+msgid ""
+"By clicking Let's go button below, you confirm that you have read, and "
+"accept this Data Policy"
+msgstr ""
+
+#: hello/templates/index.html:79
 msgid "Let's go!"
 msgstr "Zaczynajmy!"
 
