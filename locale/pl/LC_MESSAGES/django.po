@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#: hello/templates/index.html:65
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-25 23:08+0000\n"
+"POT-Creation-Date: 2018-08-26 10:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,17 +41,17 @@ msgstr "Kontakt"
 msgid "Make your own app at Heroku"
 msgstr "Stwórz własną aplikację na Heroku"
 
-#: hello/templates/howitworks.html:8 hello/templates/index.html:57
+#: hello/templates/howitworks.html:8 hello/templates/index.html:45
 #, fuzzy
 #| msgid "How does it work"
 msgid "How this app works"
 msgstr "Jak to działa"
 
-#: hello/templates/howitworks.html:18 hello/templates/index.html:67
+#: hello/templates/howitworks.html:18 hello/templates/index.html:55
 msgid "Data policy"
 msgstr "Polityka Danych"
 
-#: hello/templates/howitworks.html:20 hello/templates/index.html:69
+#: hello/templates/howitworks.html:20
 msgid "Gentle Stream DOES NOT log:"
 msgstr "Gentle Stream NIE zapisuje:"
 
@@ -69,11 +70,35 @@ msgstr "Ta aplikacja jest częścią pracy magisterskiej. "
 msgid "Source on GitHub"
 msgstr "Źródło"
 
-#: hello/templates/index.html:50
+#: hello/templates/index.html:38
 msgid "Please read how does the app work, and data policy below"
 msgstr "Proszę zapoznaj się z "
 
-#: hello/templates/index.html:96
+#: hello/templates/index.html:57
+#, fuzzy
+#| msgid "Gentle Stream DOES NOT log:"
+msgid "Gentle Stream is anonymous and DOES NOT log:"
+msgstr "Gentle Stream NIE zapisuje:"
+
+#: hello/templates/index.html:59
+msgid "Your email"
+msgstr ""
+
+#: hello/templates/index.html:60
+msgid "Your spotify login"
+msgstr ""
+
+#: hello/templates/index.html:61
+msgid "Any data that could identify you"
+msgstr ""
+
+#: hello/templates/index.html:63
+msgid ""
+"Gentle Stream does log spotify API access and refresh tokens with these "
+"scopes:"
+msgstr ""
+
+#: hello/templates/index.html:72
 msgid "Let's go!"
 msgstr "Zaczynajmy!"
 
