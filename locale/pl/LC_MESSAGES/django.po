@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-26 11:15+0000\n"
+"POT-Creation-Date: 2018-08-26 21:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,7 @@ msgstr "Stwórz własną aplikację na Heroku"
 msgid "How this app works"
 msgstr "Jak to działa"
 
-#: hello/templates/howitworks.html:18 hello/templates/index.html:55
+#: hello/templates/howitworks.html:18 hello/templates/index.html:53
 msgid "Data policy"
 msgstr "Polityka Danych"
 
@@ -73,71 +73,85 @@ msgstr "Źródło"
 msgid "Please read how does the app work, and data policy below"
 msgstr "Proszę zapoznaj się z "
 
-#: hello/templates/index.html:57
+#: hello/templates/index.html:47
+msgid "The app saves your access token to Spotify API"
+msgstr ""
+
+#: hello/templates/index.html:48
+msgid "The token is used to read your listening preferences"
+msgstr ""
+
+#: hello/templates/index.html:49
+msgid ""
+"From this data i will train neural network to provide new music based on "
+"given preferences"
+msgstr ""
+
+#: hello/templates/index.html:55
 #, fuzzy
 #| msgid "Gentle Stream DOES NOT log:"
 msgid "Gentle Stream is anonymous and DOES NOT log:"
 msgstr "Gentle Stream NIE zapisuje:"
 
-#: hello/templates/index.html:59
+#: hello/templates/index.html:57
 msgid "Your email"
 msgstr ""
 
-#: hello/templates/index.html:60
+#: hello/templates/index.html:58
 msgid "Your spotify login"
 msgstr ""
 
-#: hello/templates/index.html:61
+#: hello/templates/index.html:59
 msgid "Any data that could identify you"
 msgstr ""
 
-#: hello/templates/index.html:63
+#: hello/templates/index.html:61
 #, fuzzy
 #| msgid "Gentle Stream DOES NOT log:"
 msgid "Gentle Stream does log "
 msgstr "Gentle Stream NIE zapisuje:"
 
-#: hello/templates/index.html:63
+#: hello/templates/index.html:61
 msgid "access and refresh tokens with these "
 msgstr ""
 
-#: hello/templates/index.html:65
+#: hello/templates/index.html:63
 msgid "playlist-read-collaborative "
 msgstr ""
 
-#: hello/templates/index.html:66
+#: hello/templates/index.html:64
 msgid "playlist-read-private "
 msgstr ""
 
-#: hello/templates/index.html:67
+#: hello/templates/index.html:65
 msgid "user-follow-read"
 msgstr ""
 
-#: hello/templates/index.html:68
+#: hello/templates/index.html:66
 msgid "user-library-read"
 msgstr ""
 
-#: hello/templates/index.html:69
+#: hello/templates/index.html:67
 msgid "user-top-read"
 msgstr ""
 
-#: hello/templates/index.html:70
+#: hello/templates/index.html:68
 msgid "user-read-recently-played"
 msgstr ""
 
-#: hello/templates/index.html:72
+#: hello/templates/index.html:70
 msgid ""
 "which will be used to create custom database of Spotify users listenging "
 "preferences"
 msgstr ""
 
-#: hello/templates/index.html:74
+#: hello/templates/index.html:72
 msgid ""
 "By clicking Let's go button below, you confirm that you have read, and "
 "accept this Data Policy"
 msgstr ""
 
-#: hello/templates/index.html:79
+#: hello/templates/index.html:77
 msgid "Let's go!"
 msgstr "Zaczynajmy!"
 
