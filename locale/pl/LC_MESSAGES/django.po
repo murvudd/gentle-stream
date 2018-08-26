@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#: hello/templates/index.html:65
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-26 10:24+0000\n"
+"POT-Creation-Date: 2018-08-26 10:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,6 +95,10 @@ msgstr ""
 msgid ""
 "Gentle Stream does log spotify API access and refresh tokens with these "
 "scopes:"
+msgstr ""
+
+#: hello/templates/index.html:65
+msgid " playlist-read-collaborative "
 msgstr ""
 
 #: hello/templates/index.html:72
