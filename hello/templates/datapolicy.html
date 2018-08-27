@@ -3,17 +3,21 @@
 {% load i18n %}
 {% block content %}
 
-    <div class="row">
+{#    <div class="row">#}
+{#        <div class="col-md-6">#}
+{#            <h3><span class="glyphicon glyphicon-info-sign"></span> {% trans "How this app works" %}</h3>#}
+{#            <ul>#}
+{#                <li>{% trans "The app saves your access token to Spotify API" %}</li>#}
+{#                <li>{% trans "The token is used only to read your listening preferences (based on token scopes, can not modify anything)" %}</li>#}
+{#                <li>{% trans "From this data i will train neural network to provide new music based on given preferences" %}</li>#}
+{#            </ul>#}
+{#        </div>#}
+{#    <div align="center">#}
+    <div>
         <div class="col-md-6">
-            <h3><span class="glyphicon glyphicon-info-sign"></span> {% trans "How this app works" %}</h3>
-            <ul>
-                <li>{% trans "The app saves your access token to Spotify API" %}</li>
-                <li>{% trans "The token is used only to read your listening preferences (based on token scopes, can not modify anything)" %}</li>
-                <li>{% trans "From this data i will train neural network to provide new music based on given preferences" %}</li>
-            </ul>
-        </div>
-        <div class="col-md-6">
-            <h3><span class="glyphicon glyphicon-pencil"></span> {% trans "Data policy" %}</h3>
+
+{#            <h3><span class="glyphicon glyphicon-pencil"></span> {% trans "Data policy" %}</h3>#}
+            <h3>{% trans "Data policy" %}</h3>
             <ul>
                 <li>{% trans "Gentle Stream is anonymous and DOES NOT log:" %}</li>
                 <ul>
@@ -36,6 +40,7 @@
                 <li>{% trans "By clicking Let's go button below, you confirm that you have read, and accept this Data Policy" %}</li>
             </ul>
         </div>
-    </div> <!-- row -->
+    </div>
+{#    </div> <!-- row -->#}
 
 {% endblock %}

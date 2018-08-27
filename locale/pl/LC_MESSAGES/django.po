@@ -48,19 +48,19 @@ msgstr "Jak to działa"
 
 #: hello/templates/howitworks.html:10 hello/templates/index.html:47
 msgid "The app saves your access token to Spotify API"
-msgstr "Aplikacja zapisuje tokeny dostępu do Spotify API"
+msgstr "Aplikacja zapisuje tokeny dostępu do Spotify API."
 
 #: hello/templates/howitworks.html:11 hello/templates/index.html:48
 msgid ""
 "The token is used only to read your listening preferences (based on token "
 "scopes, can not modify anything)"
-msgstr "Token pozwala wczytać preferencje użytkownika ("
+msgstr "Token pozwala pobrać preferencje muzyczne użytkownika Spotify (wybrany zakres uniemożliwia modyfikowanie czego kolwiek na twoim koncie Spotify)"
 
 #: hello/templates/howitworks.html:12 hello/templates/index.html:49
 msgid ""
 "From this data i will train neural network to provide new music based on "
 "given preferences"
-msgstr ""
+msgstr "Twoje peferencje zostaną użyte do uczenia sieci neuronowej na potrzeby mojej pracy magisterskiej. Celem sieci jest proponowanie użytkownikom nowej muzyki."
 
 #: hello/templates/howitworks.html:16 hello/templates/index.html:53
 msgid "Data policy"
