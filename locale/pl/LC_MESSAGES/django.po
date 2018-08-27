@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-27 22:05+0000\n"
+"POT-Creation-Date: 2018-08-27 22:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,14 +120,12 @@ msgid "Any data that could identify you"
 msgstr "Żadnych danych które umożliwiły by identyfikację"
 
 #: hello/templates/index.html:61
-#, fuzzy
-#| msgid "Gentle Stream DOES NOT log:"
 msgid "Gentle Stream does log "
 msgstr "Gentle Stream zapisuje pobrane poprzez "
 
 #: hello/templates/index.html:61
-msgid "access and refresh tokens with these "
-msgstr "tokeny tymi zakresami określanymi dalej jako "
+msgid "scopes"
+msgstr "zakresami"
 
 #: hello/templates/index.html:63
 msgid "playlist-read-collaborative "
@@ -186,6 +184,9 @@ msgstr "to wszystko"
 #: hello/templates/splogin.html:17
 msgid "Go back"
 msgstr "powrót"
+
+#~ msgid "access and refresh tokens with these "
+#~ msgstr "tokeny tymi zakresami określanymi dalej jako "
 
 #~ msgid "How does it work"
 #~ msgstr "Jak to działa"
