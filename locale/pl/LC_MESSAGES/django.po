@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-27 22:41+0000\n"
+"POT-Creation-Date: 2018-08-27 22:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,6 +40,105 @@ msgstr "Kontakt"
 msgid "Make your own app at Heroku"
 msgstr "Stwórz własną aplikację na Heroku"
 
+#: hello/templates/datapolicy.html:20 hello/templates/datapolicy.html:28
+#: hello/templates/index.html:53
+msgid "Data policy"
+msgstr "Polityka Danych"
+
+#: hello/templates/datapolicy.html:22 hello/templates/index.html:47
+msgid "The app saves your access token to Spotify API."
+msgstr "Aplikacja zapisuje tokeny dostępu do Spotify API."
+
+#: hello/templates/datapolicy.html:23 hello/templates/index.html:48
+msgid ""
+"The token is used only to read your listening preferences. (based on token "
+"scopes, the app can not modify anything.)"
+msgstr ""
+"Token pozwala pobrać preferencje muzyczne użytkownika Spotify (wybrany "
+"zakres uniemożliwia modyfikowanie czego kolwiek na twoim koncie Spotify)"
+
+#: hello/templates/datapolicy.html:24 hello/templates/index.html:49
+msgid ""
+"Data will be use to train neural network to provide new music based on given "
+"preferences. Neural network is part of my master's degree thesis"
+msgstr ""
+"Twoje peferencje zostaną użyte do uczenia sieci neuronowej na potrzeby mojej "
+"pracy magisterskiej. Celem sieci jest proponowanie użytkownikom nowej muzyki."
+
+#: hello/templates/datapolicy.html:30 hello/templates/index.html:55
+msgid "is anonymous and DOES NOT log:"
+msgstr "jest anonimowe i NIE zapisuje:"
+
+#: hello/templates/datapolicy.html:32 hello/templates/index.html:57
+msgid "Your email"
+msgstr "Twojego emaila"
+
+#: hello/templates/datapolicy.html:33 hello/templates/index.html:58
+msgid "Your Spotify login"
+msgstr "Twojego loginu"
+
+#: hello/templates/datapolicy.html:34 hello/templates/index.html:59
+msgid "Any data that could identify you"
+msgstr "Żadnych danych które umożliwiły by identyfikację"
+
+#: hello/templates/datapolicy.html:36 hello/templates/index.html:61
+msgid "does log "
+msgstr "zapisuje pobrane poprzez"
+
+#: hello/templates/datapolicy.html:37 hello/templates/index.html:62
+msgid "access and refresh tokens with these "
+msgstr "tokeny tymi zakresami określanymi dalej jako "
+
+#: hello/templates/datapolicy.html:37 hello/templates/index.html:62
+msgid "scopes"
+msgstr "zakresami"
+
+#: hello/templates/datapolicy.html:39 hello/templates/index.html:64
+msgid "playlist-read-collaborative "
+msgstr ""
+
+#: hello/templates/datapolicy.html:40 hello/templates/index.html:65
+msgid "playlist-read-private "
+msgstr ""
+
+#: hello/templates/datapolicy.html:41 hello/templates/index.html:66
+msgid "user-follow-read"
+msgstr ""
+
+#: hello/templates/datapolicy.html:42 hello/templates/index.html:67
+msgid "user-library-read"
+msgstr ""
+
+#: hello/templates/datapolicy.html:43 hello/templates/index.html:68
+msgid "user-top-read"
+msgstr ""
+
+#: hello/templates/datapolicy.html:44 hello/templates/index.html:69
+msgid "user-read-recently-played"
+msgstr ""
+
+#: hello/templates/datapolicy.html:46 hello/templates/index.html:71
+msgid ""
+"Which will be used to create custom database of Spotify users listenging "
+"preferences"
+msgstr ""
+"Wszystkie te dane zostaną użyte do stworzenia bazy danych preferencji "
+"użytkownika, która zostanie wykorzystana tylko do mojej pracy magisterskiej"
+
+#: hello/templates/datapolicy.html:48 hello/templates/index.html:73
+msgid ""
+"If you want to revoke your permission, just head on to your Spotify account, "
+"apps tab, and click remove access "
+msgstr ""
+"Jeżeli w jakim kolwiek momencie zechesz odwołać dostęp do Twoich danych "
+"Spotify, przejdź do ustawień swojego konta, aplikacje i odwołaj dostęp "
+
+#: hello/templates/datapolicy.html:49 hello/templates/index.html:74
+msgid ""
+"By clicking Let's go button below, you confirm that you have read, and "
+"accept this Data Policy"
+msgstr ""
+
 #: hello/templates/index.html:32
 msgid ""
 "This application is a part of a masters deegre. In order to get real users "
@@ -58,105 +157,7 @@ msgstr "Proszę zapoznaj się z Polityką Danych"
 msgid "How this app works"
 msgstr "Jak to działa"
 
-#: hello/templates/index.html:47
-msgid "The app saves your access token to Spotify API."
-msgstr "Aplikacja zapisuje tokeny dostępu do Spotify API."
-
-#: hello/templates/index.html:48
-msgid ""
-"The token is used only to read your listening preferences. (based on token "
-"scopes, the app can not modify anything.)"
-msgstr ""
-"Token pozwala pobrać preferencje muzyczne użytkownika Spotify (wybrany "
-"zakres uniemożliwia modyfikowanie czego kolwiek na twoim koncie Spotify)"
-
-#: hello/templates/index.html:49
-msgid ""
-"Data will be use to train neural network to provide new music based on given "
-"preferences. Neural network is part of my master's degree thesis"
-msgstr ""
-"Twoje peferencje zostaną użyte do uczenia sieci neuronowej na potrzeby mojej "
-"pracy magisterskiej. Celem sieci jest proponowanie użytkownikom nowej muzyki."
-
-#: hello/templates/index.html:53
-msgid "Data policy"
-msgstr "Polityka Danych"
-
-#: hello/templates/index.html:55
-msgid "is anonymous and DOES NOT log:"
-msgstr "jest anonimowe i NIE zapisuje:"
-
-#: hello/templates/index.html:57
-msgid "Your email"
-msgstr "Twojego emaila"
-
-#: hello/templates/index.html:58
-msgid "Your Spotify login"
-msgstr "Twojego loginu"
-
-#: hello/templates/index.html:59
-msgid "Any data that could identify you"
-msgstr "Żadnych danych które umożliwiły by identyfikację"
-
-#: hello/templates/index.html:61
-msgid "does log "
-msgstr "zapisuje pobrane poprzez"
-
-#: hello/templates/index.html:62
-msgid "access and refresh tokens with these "
-msgstr "tokeny tymi zakresami określanymi dalej jako "
-
-#: hello/templates/index.html:62
-msgid "scopes"
-msgstr "zakresami"
-
-#: hello/templates/index.html:64
-msgid "playlist-read-collaborative "
-msgstr ""
-
-#: hello/templates/index.html:65
-msgid "playlist-read-private "
-msgstr ""
-
-#: hello/templates/index.html:66
-msgid "user-follow-read"
-msgstr ""
-
-#: hello/templates/index.html:67
-msgid "user-library-read"
-msgstr ""
-
-#: hello/templates/index.html:68
-msgid "user-top-read"
-msgstr ""
-
-#: hello/templates/index.html:69
-msgid "user-read-recently-played"
-msgstr ""
-
-#: hello/templates/index.html:71
-msgid ""
-"Which will be used to create custom database of Spotify users listenging "
-"preferences"
-msgstr ""
-"Wszystkie te dane zostaną użyte do stworzenia bazy danych preferencji "
-"użytkownika, która zostanie wykorzystana tylko do mojej pracy magisterskiej"
-
-#: hello/templates/index.html:73
-msgid ""
-"If you want to revoke your permission, just head on to your Spotify account, "
-"apps tab, and click remove access "
-msgstr ""
-"Jeżeli w jakim kolwiek momencie zechesz odwołać dostęp do Twoich danych "
-"Spotify, przejdź do ustawień swojego konta, aplikacje i odwołaj dostęp "
-
-#: hello/templates/index.html:74
-msgid ""
-"By clicking Let's go button below, you confirm that you have read, and "
-"accept this Data Policy"
-msgstr ""
-
-#: hello/templates/index.html:79
+#: hello/templates/index.html:80
 msgid "Let's go!"
 msgstr "Zaczynajmy!"
 
