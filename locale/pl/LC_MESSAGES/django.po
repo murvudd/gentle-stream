@@ -70,29 +70,29 @@ msgstr "Polityka Danych"
 #, fuzzy
 #| msgid "Gentle Stream DOES NOT log:"
 msgid "Gentle Stream is anonymous and DOES NOT log:"
-msgstr "Gentle Stream NIE zapisuje:"
+msgstr "Gentle Stream jest anonimowe i NIE zapisuje:"
 
 #: hello/templates/howitworks.html:20 hello/templates/index.html:57
 msgid "Your email"
-msgstr ""
+msgstr "Twojego emaila"
 
 #: hello/templates/howitworks.html:21 hello/templates/index.html:58
-msgid "Your spotify login"
-msgstr ""
+msgid "Your Spotify login"
+msgstr "Twojego loginu"
 
 #: hello/templates/howitworks.html:22 hello/templates/index.html:59
 msgid "Any data that could identify you"
-msgstr ""
+msgstr "Żadnych danych które umożliwiły by identyfikację"
 
 #: hello/templates/howitworks.html:24 hello/templates/index.html:61
 #, fuzzy
 #| msgid "Gentle Stream DOES NOT log:"
 msgid "Gentle Stream does log "
-msgstr "Gentle Stream NIE zapisuje:"
+msgstr "Gentle Stream zapisuje pobrane poprzez "
 
 #: hello/templates/howitworks.html:24 hello/templates/index.html:61
 msgid "access and refresh tokens with these "
-msgstr ""
+msgstr "tokeny tymi zakresami określanymi dalej jako "
 
 #: hello/templates/howitworks.html:26 hello/templates/index.html:63
 msgid "playlist-read-collaborative "
@@ -120,9 +120,9 @@ msgstr ""
 
 #: hello/templates/howitworks.html:33 hello/templates/index.html:70
 msgid ""
-"which will be used to create custom database of Spotify users listenging "
+"Which will be used to create custom database of Spotify users listenging "
 "preferences"
-msgstr ""
+msgstr "Wszystkie te"
 
 #: hello/templates/howitworks.html:35
 msgid ""
@@ -153,7 +153,7 @@ msgstr "Źródło"
 
 #: hello/templates/index.html:38
 msgid "Please read how does the app work, and data policy below"
-msgstr "Proszę zapoznaj się z "
+msgstr "Proszę zapoznaj się z Polityką Danych"
 
 #: hello/templates/index.html:72
 msgid ""
@@ -167,15 +167,15 @@ msgstr "Zaczynajmy!"
 
 #: hello/templates/splogin.html:9
 msgid "Thank You"
-msgstr ""
+msgstr "Dziękuję Bardzo"
 
 #: hello/templates/splogin.html:10
 msgid "that's all"
-msgstr ""
+msgstr "to wszystko"
 
 #: hello/templates/splogin.html:17
 msgid "Go back"
-msgstr ""
+msgstr "powrót"
 
 #~ msgid "Gentle Stream DOES NOT log:"
 #~ msgstr "Gentle Stream NIE zapisuje:"

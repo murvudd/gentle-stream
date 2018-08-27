@@ -3,44 +3,51 @@
 {% load i18n %}
 {% block content %}
 
-{#    <div class="row">#}
-{#        <div class="col-md-6">#}
-{#            <h3><span class="glyphicon glyphicon-info-sign"></span> {% trans "How this app works" %}</h3>#}
-{#            <ul>#}
-{#                <li>{% trans "The app saves your access token to Spotify API" %}</li>#}
-{#                <li>{% trans "The token is used only to read your listening preferences (based on token scopes, can not modify anything)" %}</li>#}
-{#                <li>{% trans "From this data i will train neural network to provide new music based on given preferences" %}</li>#}
-{#            </ul>#}
-{#        </div>#}
-{#    <div align="center">#}
+    {#    <div class="row">#}
+    {#        <div class="col-md-6">#}
+    {#            <h3><span class="glyphicon glyphicon-info-sign"></span> {% trans "How this app works" %}</h3>#}
+    {#            <ul>#}
+    {#                <li>{% trans "The app saves your access token to Spotify API" %}</li>#}
+    {#                <li>{% trans "The token is used only to read your listening preferences (based on token scopes, can not modify anything)" %}</li>#}
+    {#                <li>{% trans "From this data i will train neural network to provide new music based on given preferences" %}</li>#}
+    {#            </ul>#}
+    {#        </div>#}
+    {#    <div align="center">#}
     <div>
-        <div class="col-md-6">
+    <div class="col-md-6">
 
-{#            <h3><span class="glyphicon glyphicon-pencil"></span> {% trans "Data policy" %}</h3>#}
-            <h3>{% trans "Data policy" %}</h3>
-            <ul>
-                <li>{% trans "Gentle Stream is anonymous and DOES NOT log:" %}</li>
-                <ul>
-                    <li> {% trans "Your email" %}</li>
-                    <li> {% trans "Your spotify login" %}</li>
-                    <li> {% trans "Any data that could identify you" %}</li>
-                </ul>
-                <li>{% trans "Gentle Stream does log " %} <a herf="https://developer.spotify.com/documentation/web-api/">Spotify Api </a>{% trans "access and refresh tokens with these " %}<a href = "https://developer.spotify.com/documentation/general/guides/scopes/#user-library-read">scopes:</a>
-                    <ul>
-                        <li>{% trans "playlist-read-collaborative " %}</li>
-                        <li>{% trans "playlist-read-private " %}</li>
-                        <li>{% trans "user-follow-read" %}</li>
-                        <li>{% trans "user-library-read" %}</li>
-                        <li>{% trans "user-top-read" %}</li>
-                        <li>{% trans "user-read-recently-played" %}</li>
-                    </ul>
-                    {% trans "which will be used to create custom database of Spotify users listenging preferences" %}
-                </li>
-                <li>{% trans "If you want to revoke your permission, just head on to your Spotify account, apps tab, and click remove access " %} <a href="https://www.spotify.com/pl/account/apps/">link</a></li>
-                <li>{% trans "By clicking Let's go button below, you confirm that you have read, and accept this Data Policy" %}</li>
-            </ul>
-        </div>
+        {#            <h3><span class="glyphicon glyphicon-pencil"></span> {% trans "Data policy" %}</h3>#}
+        <h3>{% trans "Data policy" %}</h3>
+        <ul>
+            <li>{% trans "The app saves your access token to Spotify API." %}</li>
+            <li>{% trans "The token is used only to read your listening preferences. (based on token scopes, the app can not modify anything.)" %}</li>
+            <li>{% trans "Data will be use to train neural network to provide new music based on given preferences. Neural network is part of my master's degree thesis" %}</li>
+        </ul>
     </div>
-{#    </div> <!-- row -->#}
+    <div class="col-md-6">
+        <h3><span class="glyphicon glyphicon-pencil"></span> {% trans "Data policy" %}</h3>
+        <ul>
+            <li>{% trans "Gentle Stream is anonymous and DOES NOT log:" %}</li>
+            <ul>
+                <li> {% trans "Your email" %}</li>
+                <li> {% trans "Your spotify login" %}</li>
+                <li> {% trans "Any data that could identify you" %}</li>
+            </ul>
+            <li>{% trans "Gentle Stream does log " %} <a herf="https://developer.spotify.com/documentation/web-api/">Spotify Api </a>{% trans "access and refresh tokens with these " %}<a href = "https://developer.spotify.com/documentation/general/guides/scopes/#user-library-read">scopes:</a>
+                <ul>
+                    <li>{% trans "playlist-read-collaborative " %}</li>
+                    <li>{% trans "playlist-read-private " %}</li>
+                    <li>{% trans "user-follow-read" %}</li>
+                    <li>{% trans "user-library-read" %}</li>
+                    <li>{% trans "user-top-read" %}</li>
+                    <li>{% trans "user-read-recently-played" %}</li>
+                </ul>
+                {% trans "which will be used to create custom database of Spotify users listenging preferences" %}
+            </li>
+            <li>{% trans "If you want to revoke your permission, just head on to your Spotify account, apps tab, and click remove access " %} <a href="https://www.spotify.com/pl/account/apps/">link</a></li>
+            <li>{% trans "By clicking Let's go button below, you confirm that you have read, and accept this Data Policy" %}</li>
+        </ul>
+    </div>
+    {#    </div> <!-- row -->#}
 
 {% endblock %}
