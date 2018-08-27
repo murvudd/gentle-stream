@@ -7,32 +7,34 @@
             <div class="col-md-6">
                 <h3><span class="glyphicon glyphicon-info-sign"></span> {% trans "How this app works" %}</h3>
                 <ul>
-                    <li>This app was deployed to Heroku, either using Git or by using <a href="https://github.com/heroku/python-getting-started">Heroku Button</a> on the repository.</li>
-
-                    <li>When Heroku received the source code, it fetched all the dependencies in the <a href="https://github.com/heroku/python-getting-started/blob/master/Pipfile">Pipfile</a>, creating a deployable slug.</li>
-                    <li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in which the slug can be mounted and executed.</li>
-                    <li>You can scale your app, manage it, and deploy over <a href="https://addons.heroku.com/">150 add-on services</a>, from the Dashboard or CLI.</li>
+                    <li>{% trans "The app saves your access token to Spotify API" %}</li>
+                    <li>{% trans "The token is used only to read your listening preferences (based on token scopes, can not modify anything)" %}</li>
+                    <li>{% trans "From this data i will train neural network to provide new music based on given preferences" %}</li>
                 </ul>
             </div>
             <div class="col-md-6">
                 <h3><span class="glyphicon glyphicon-pencil"></span> {% trans "Data policy" %}</h3>
                 <ul>
-                    <li>{% trans "Gentle Stream DOES NOT log:" %}</li>
-                    <li>If you deployed this app by deploying the Heroku Button, then in a command line shell, run:</li>
-                    {#                    <ul>#}
-                    {#                        <li><code>git clone https://github.com/heroku/python-getting-started.git</code> - this will create a local copy of the source code for the app</li>#}
-                    {#                        <li><code>cd python-getting-started</code> - change directory into the local source code repository</li>#}
-                    {#                        <li><code>heroku git:remote -a &lt;your-app-name></code> - associate the Heroku app with the repository</li>#}
-                    {#                        <li>You'll now be set up to run the app locally, or <a href="https://devcenter.heroku.com/articles/getting-started-with-python#push-local-changes">deploy changes</a> to Heroku</li>#}
-                    {#                    </ul>#}
+                    <li>{% trans "Gentle Stream is anonymous and DOES NOT log:" %}</li>
+                    <ul>
+                        <li> {% trans "Your email" %}</li>
+                        <li> {% trans "Your spotify login" %}</li>
+                        <li> {% trans "Any data that could identify you" %}</li>
+                    </ul>
+                    <li>{% trans "Gentle Stream does log " %} <a herf="https://developer.spotify.com/documentation/web-api/">Spotify Api </a>{% trans "access and refresh tokens with these " %}<a href = "https://developer.spotify.com/documentation/general/guides/scopes/#user-library-read">scopes:</a>
+                    <ul>
+                        <li>{% trans "playlist-read-collaborative " %}</li>
+                        <li>{% trans "playlist-read-private " %}</li>
+                        <li>{% trans "user-follow-read" %}</li>
+                        <li>{% trans "user-library-read" %}</li>
+                        <li>{% trans "user-top-read" %}</li>
+                        <li>{% trans "user-read-recently-played" %}</li>
+                    </ul>
+                        {% trans "which will be used to create custom database of Spotify users listenging preferences" %}
+                    </li>
+                    <li>{% trans "If you want to revoke your permission, just head on to your Spotify account, apps tab, and click remove access. " %} <a href="https://www.spotify.com/pl/account/apps/">link</a></li>
+                    <li>{% trans "By clicking Let's go button below, you confirm that you have read, and accept this Data Policy" %}</li>
                 </ul>
-                {#                <h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>#}
-                {#                <ul>#}
-                {#                    <li><a href="https://www.heroku.com/home">Heroku</a></li>#}
-                {#                    <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>#}
-                {#                    <li><a href="https://devcenter.heroku.com/articles/getting-started-with-python">Getting Started with Python on Heroku</a></li>#}
-                {#                    <li><a href="https://devcenter.heroku.com/articles/django-app-configuration">Configuring Django Apps for Heroku</a></li>#}
-                {#                </ul>#}
             </div>
         </div> <!-- row -->
 
