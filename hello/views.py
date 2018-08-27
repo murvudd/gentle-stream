@@ -50,10 +50,9 @@ def index(request):
 #     return render(request, 'base.html')
 
 
+def datapolicy(request):
 
-def howitworks(request):
-
-    return render(request, 'howitworks.html')
+    return render(request, 'datapolicy.html')
 
 
 def splogin(request):
