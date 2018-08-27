@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-27 22:14+0000\n"
+"POT-Creation-Date: 2018-08-27 22:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,8 +29,6 @@ msgid "Home"
 msgstr "Strona Główna"
 
 #: hello/templates/base.html:86
-#, fuzzy
-#| msgid "Data policy"
 msgid "Data Policy"
 msgstr "Polityka Danych"
 
@@ -43,11 +41,6 @@ msgid "Make your own app at Heroku"
 msgstr "Stwórz własną aplikację na Heroku"
 
 #: hello/templates/index.html:32
-#, fuzzy
-#| msgid ""
-#| "This application is a part of my masters deegre. In order to get real "
-#| "users preferences, Gente Stream logs your Spotify account listening "
-#| "preferences"
 msgid ""
 "This application is a part of a masters deegre. In order to get real users "
 "preferences, Gente Stream logs your Spotify account listening preferences"
@@ -62,22 +55,14 @@ msgid "Please read how does the app work, and data policy below"
 msgstr "Proszę zapoznaj się z Polityką Danych"
 
 #: hello/templates/index.html:45
-#, fuzzy
-#| msgid "How does it work"
 msgid "How this app works"
 msgstr "Jak to działa"
 
 #: hello/templates/index.html:47
-#, fuzzy
-#| msgid "The app saves your access token to Spotify API"
 msgid "The app saves your access token to Spotify API."
 msgstr "Aplikacja zapisuje tokeny dostępu do Spotify API."
 
 #: hello/templates/index.html:48
-#, fuzzy
-#| msgid ""
-#| "The token is used only to read your listening preferences (based on token "
-#| "scopes, can not modify anything)"
 msgid ""
 "The token is used only to read your listening preferences. (based on token "
 "scopes, the app can not modify anything.)"
@@ -86,10 +71,6 @@ msgstr ""
 "zakres uniemożliwia modyfikowanie czego kolwiek na twoim koncie Spotify)"
 
 #: hello/templates/index.html:49
-#, fuzzy
-#| msgid ""
-#| "From this data i will train neural network to provide new music based on "
-#| "given preferences"
 msgid ""
 "Data will be use to train neural network to provide new music based on given "
 "preferences. Neural network is part of my master's degree thesis"
@@ -102,8 +83,6 @@ msgid "Data policy"
 msgstr "Polityka Danych"
 
 #: hello/templates/index.html:55
-#, fuzzy
-#| msgid "Gentle Stream DOES NOT log:"
 msgid "is anonymous and DOES NOT log:"
 msgstr "jest anonimowe i NIE zapisuje:"
 
@@ -120,56 +99,64 @@ msgid "Any data that could identify you"
 msgstr "Żadnych danych które umożliwiły by identyfikację"
 
 #: hello/templates/index.html:61
-msgid "Gentle Stream does log "
-msgstr "Gentle Stream zapisuje pobrane poprzez "
+msgid "does log "
+msgstr "zapisuje pobrane poprzez"
 
-#: hello/templates/index.html:61
+#: hello/templates/index.html:62
+msgid "access and refresh tokens with these "
+msgstr "tokeny tymi zakresami określanymi dalej jako "
+
+#: hello/templates/index.html:62
 msgid "scopes"
 msgstr "zakresami"
 
-#: hello/templates/index.html:63
+#: hello/templates/index.html:64
 msgid "playlist-read-collaborative "
 msgstr ""
 
-#: hello/templates/index.html:64
+#: hello/templates/index.html:65
 msgid "playlist-read-private "
 msgstr ""
 
-#: hello/templates/index.html:65
+#: hello/templates/index.html:66
 msgid "user-follow-read"
 msgstr ""
 
-#: hello/templates/index.html:66
+#: hello/templates/index.html:67
 msgid "user-library-read"
 msgstr ""
 
-#: hello/templates/index.html:67
+#: hello/templates/index.html:68
 msgid "user-top-read"
 msgstr ""
 
-#: hello/templates/index.html:68
+#: hello/templates/index.html:69
 msgid "user-read-recently-played"
 msgstr ""
 
-#: hello/templates/index.html:70
+#: hello/templates/index.html:71
 msgid ""
 "Which will be used to create custom database of Spotify users listenging "
 "preferences"
-msgstr "Wszystkie te"
+msgstr ""
+"Wszystkie te dane zostaną użyte do stworzenia bazy danych preferencji "
+"użytkownika, która zostanie wykorzystana tylko do mojej pracy magisterskiej"
 
-#: hello/templates/index.html:72
+#: hello/templates/index.html:73
 msgid ""
 "If you want to revoke your permission, just head on to your Spotify account, "
 "apps tab, and click remove access "
 msgstr ""
+"Jeżeli w jakim kolwiek momencie zechesz odwołać dostęp do Twoich danych "
+"Spotify, przejdź do ustawień swojego konta, aplikacje i odwołaj dostęp "
 
-#: hello/templates/index.html:73
+#: hello/templates/index.html:74
 msgid ""
 "By clicking Let's go button below, you confirm that you have read, and "
 "accept this Data Policy"
 msgstr ""
 
-#: hello/templates/index.html:78
+#: hello/templates/index.html:79
 msgid "Let's go!"
 msgstr "Zaczynajmy!"
 
@@ -184,12 +171,3 @@ msgstr "to wszystko"
 #: hello/templates/splogin.html:17
 msgid "Go back"
 msgstr "powrót"
-
-#~ msgid "access and refresh tokens with these "
-#~ msgstr "tokeny tymi zakresami określanymi dalej jako "
-
-#~ msgid "How does it work"
-#~ msgstr "Jak to działa"
-
-#~ msgid "Gentle Stream DOES NOT log:"
-#~ msgstr "Gentle Stream NIE zapisuje:"
