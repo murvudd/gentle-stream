@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-27 21:51+0000\n"
+"POT-Creation-Date: 2018-08-27 22:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,8 +104,8 @@ msgstr "Polityka Danych"
 #: hello/templates/index.html:55
 #, fuzzy
 #| msgid "Gentle Stream DOES NOT log:"
-msgid "Gentle Stream is anonymous and DOES NOT log:"
-msgstr "Gentle Stream jest anonimowe i NIE zapisuje:"
+msgid "is anonymous and DOES NOT log:"
+msgstr "jest anonimowe i NIE zapisuje:"
 
 #: hello/templates/index.html:57
 msgid "Your email"
