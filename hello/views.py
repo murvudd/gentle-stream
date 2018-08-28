@@ -64,16 +64,16 @@ def splogin(request):
     try:
         token_info = h.get_cached_token()
     except IOError:
-    #     raise
-       pass
+        #     raise
+        pass
 
-    # if code != '':
-    #     token_info = h.get_access_token(code=code)
-    try:
+    if code != '':
         token_info = h.get_access_token(code=code)
-    except:
-        raise
-        # pass
+    # try:
+    #     token_info = h.get_access_token(code=code)
+    # except:
+    #     raise
+    #     # pass
     # tokenJson = json.load(token_info)
     # user_auth.Id =
     user_auth = models.ApiData()
