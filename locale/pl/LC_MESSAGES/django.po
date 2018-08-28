@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-08-28 13:12+0000\n"
+"POT-Creation-Date: 2018-08-28 13:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -180,6 +180,6 @@ msgstr "Dziękuję Bardzo"
 msgid "that's all"
 msgstr "to wszystko"
 
-#: hello/templates/splogin.html:17
+#: hello/templates/splogin.html:18
 msgid "Go back"
 msgstr "powrót"
