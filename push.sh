@@ -1,5 +1,5 @@
-python manage.py makemessages -l pl
-python manage.py compilemessages -l pl
+python manage.py makemessages -l pl;
+python manage.py compilemessages -l pl;
 
 
 echo ""
